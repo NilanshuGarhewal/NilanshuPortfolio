@@ -7,20 +7,16 @@ import MyLastName from "../MyLastName/MyLastName";
 
 import img from "../../../assets/images/image.jpg";
 
-export default function HeroLower({ showBio, handleShowBio, isMobile }) {
+export default function HeroLower({ showBio, handleShowBio }) {
   return (
     <div className="hero-lower">
-      <MyFirstName
-        showBio={showBio}
-        handleShowBio={handleShowBio}
-        isMobile={isMobile}
-      />
+      <MyFirstName showBio={showBio} handleShowBio={handleShowBio} />
 
-      <MyImage showBio={showBio} img={img} isMobile={isMobile} />
+      <MyImage showBio={showBio} img={img} />
 
-      <MyBio showBio={showBio} isMobile={isMobile} />
+      <MyBio showBio={showBio} />
 
-      <MyLastName showBio={showBio} isMobile={isMobile} />
+      <MyLastName showBio={showBio} />
     </div>
   );
 }

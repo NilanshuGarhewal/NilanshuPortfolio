@@ -2,7 +2,7 @@ import "./MyBio.css";
 
 import { motion } from "motion/react";
 
-const MyBio = ({ showBio, isMobile }) => {
+const MyBio = ({ showBio }) => {
   return (
     <motion.div
       className="bio"

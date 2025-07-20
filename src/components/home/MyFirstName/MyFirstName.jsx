@@ -2,7 +2,7 @@ import "./MyFirstName.css";
 
 import { motion } from "motion/react";
 
-const MyFirstName = ({ showBio, handleShowBio, isMobile }) => {
+const MyFirstName = ({ showBio, handleShowBio }) => {
   return (
     <div className="hero-first-name">
       <motion.div

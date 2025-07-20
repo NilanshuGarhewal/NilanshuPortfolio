@@ -4,4 +4,11 @@
   padding: 0 2rem;
   position: relative;
   overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+@media (max-width: 480px) {
+  .home {
+    padding: 0 1rem;
+  }
 }

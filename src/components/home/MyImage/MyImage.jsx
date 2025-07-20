@@ -2,7 +2,7 @@ import "./MyImage.css";
 import { useEffect } from "react";
 import { motion, useMotionValue, useAnimation } from "framer-motion";
 
-const MyImage = ({ showBio, img, isMobile }) => {
+const MyImage = ({ showBio, img }) => {
   const rotateX = useMotionValue(0);
   const rotateY = useMotionValue(0);
   const controls = useAnimation();

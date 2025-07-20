@@ -5,7 +5,7 @@ import UpArrow from "../../../assets/images/up_arrow.png";
 import { motion } from "motion/react";
 import { Link } from "react-router-dom";
 
-const MyLastName = ({ showBio, isMobile }) => {
+const MyLastName = ({ showBio }) => {
   return (
     <div className="hero-last-name">
       {/* <Link to="/projects" className="link"> */}
