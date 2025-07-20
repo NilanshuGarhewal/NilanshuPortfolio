@@ -1,0 +1,16 @@
+.preloader {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background: var(--bg-primary);
+    color: var(--bg-secondary);
+    font-family: "bold", sans-serif;
+    font-size: 20rem;
+    text-transform: uppercase;
+}
+
+.counter {
+  transition: all 0.3s ease;
+}

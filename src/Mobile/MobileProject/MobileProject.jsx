@@ -28,15 +28,24 @@ const MobileProject = () => {
 
   return (
     <div className="m-project">
-      <MSP projectInfo={projectInfo.vox} />
+      <MSP
+        projectInfo={projectInfo.vox}
+        linkTo={"https://github.com/NilanshuGarhewal/Vox-v1"}
+      />
 
       <div className="m-divider"></div>
 
-      <MSP projectInfo={projectInfo.stazy} />
+      <MSP
+        projectInfo={projectInfo.stazy}
+        linkTo={"https://github.com/NilanshuGarhewal/Stazy-Home-Rental-Site"}
+      />
 
       <div className="m-divider"></div>
 
-      <MSP projectInfo={projectInfo.artist} />
+      <MSP
+        projectInfo={projectInfo.artist}
+        linkTo={"https://harmonishbeats.onrender.com/"}
+      />
 
       <div className="m-divider"></div>
     </div>

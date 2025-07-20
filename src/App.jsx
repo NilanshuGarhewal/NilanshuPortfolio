@@ -8,6 +8,7 @@ import { AnimatePresence } from "framer-motion";
 
 import useLenis from "./Logic/Lenis";
 import { useEffect, useState } from "react";
+import Preloader from "./components/Preloader/Preloader";
 
 function App() {
   useLenis();
@@ -18,17 +19,13 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, 3000);
 
     return () => clearTimeout(timer);
   }, []);
 
   if (loading) {
-    return (
-      <div className="loader">
-        <h1>Loading...</h1>{" "}
-      </div>
-    );
+    return <Preloader />;
   }
 
   return (

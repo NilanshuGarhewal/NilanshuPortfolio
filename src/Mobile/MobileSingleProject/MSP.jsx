@@ -2,7 +2,7 @@ import "./MSP.css";
 
 import { hover, motion } from "framer-motion";
 
-const MSP = ({ projectInfo }) => {
+const MSP = ({ projectInfo, linkTo }) => {
   return (
     <motion.div className="m-project-wrapper">
       <div className="m-project-img">
@@ -13,7 +13,8 @@ const MSP = ({ projectInfo }) => {
         <p className="m-project-des">{projectInfo.des}</p>
 
         <div className="m-view-button">
-          <span>view {projectInfo.name}</span> <div className="m-red-dot"></div>
+          <a href={linkTo}>view {projectInfo.name}</a>{" "}
+          <div className="m-red-dot"></div>
         </div>
       </div>
     </motion.div>
