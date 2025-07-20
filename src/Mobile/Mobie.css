@@ -63,7 +63,7 @@
 }
 
 .m-about {
-  width: 70%;
+  width: 80%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -96,4 +96,26 @@
   margin-top: 2rem;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+
+@media (max-width: 415px) {
+  .m-about-wrapper {
+    scale: .9;
+    
+  }
+
+  .m-about {
+    width: 90%;
+  }
+}
+
+@media (max-width: 350px) {
+  .m-about-wrapper {
+    scale: .8;
+  }
+
+  .m-about {
+    width: 100%;
+  }
 }

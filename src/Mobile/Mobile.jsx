@@ -2,7 +2,7 @@ import "./Mobie.css";
 
 import { useState } from "react";
 
-import img from "../assets/images/image.jpg";
+import img from "../assets/images/error.gif";
 
 import { motion } from "framer-motion";
 

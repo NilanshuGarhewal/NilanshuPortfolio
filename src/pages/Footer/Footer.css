@@ -110,7 +110,7 @@
 }
 
 .m-footer-box-3 {
-  font-size: 7rem;
+  font-size: clamp(2rem, 22vw, 7rem);
   justify-content: center;
   color: var(--primary);
 }

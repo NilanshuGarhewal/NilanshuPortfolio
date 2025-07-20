@@ -5,7 +5,7 @@ import MyImage from "../MyImage/MyImage";
 import MyBio from "../MyBio/MyBio";
 import MyLastName from "../MyLastName/MyLastName";
 
-import img from "../../../assets/images/image.jpg";
+import img from "../../../assets/images/error.gif";
 
 export default function HeroLower({ showBio, handleShowBio }) {
   return (
