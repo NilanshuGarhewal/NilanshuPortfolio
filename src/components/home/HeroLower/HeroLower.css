@@ -1,0 +1,17 @@
+
+.hero-lower {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,62 @@
+:root {
+  /* colors */
+
+  /* primary */
+  --primary: #f93434;
+
+  /* text */
+  --fg-primary: #ffffff;
+
+  /* background */
+  --bg-primary: #131212;
+  --bg-secondary: #2a2929;
+  --bg-tertiary: #201f1f;
+}
+
+/* fonts */
+
+@font-face {
+  font-family: "black";
+  src: url("./assets/fonts/Thunder-BlackLC.woff") format("woff");
+}
+
+@font-face {
+  font-family: "bold";
+  src: url("./assets/fonts/Thunder-BoldLC.woff") format("woff");
+}
+
+@font-face {
+  font-family: "regular";
+  src: url("./assets/fonts/PPNeueMontreal-Regular.woff") format("woff");
+}
+
+/* css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: auto;
+  background: var(--bg-primary);
+  color: var(--fg-primary);
+  font-family: "black", sans-serif;
+  overflow-x: hidden;
+  scrollbar-width: 0;
+  -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+  display: nonw;
+  width: 0;
+  height: 0;
+}
+
+*::selection,
+::-moz-selection {
+  background-color: var(--primary);
+  color: black;
+}

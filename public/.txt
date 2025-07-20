@@ -1,0 +1,15 @@
+-> Font
+1. Thunder Bolt LC Black & Bold
+2. PP NUEU MONTEREAL REGULAR
+
+-> Colors
+    /* primary */
+    --primary: #f93434;
+
+    /* text */
+    --fg-primary: #ffffff;
+    
+    /* background */
+    --bg-primary: #131212;
+    --bg-secondary: #2a2929;
+    --bg-tertiary: #201f1f;

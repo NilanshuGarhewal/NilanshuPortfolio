@@ -1,0 +1,20 @@
+/* bio */
+
+.bio {
+  width: 400px;
+  height: auto;
+  position: absolute;
+  opacity: 0;
+}
+
+.bio h1 {
+  font-size: clamp(36px, 3.4722vw, 90px);
+  line-height: 0.833em;
+  font-family: "bold", sans-serif;
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+}
+
+.bio p {
+  font-family: "regular", sans-serif;
+}

@@ -1,0 +1,60 @@
+.project-wrapper {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.project-image {
+  width: 40%;
+  height: auto;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  /* overflow: hidden; */
+}
+
+.project-image img {
+  border-radius: 5px;
+  width: 100%;
+  display: block;
+  pointer-events: none;
+  will-change: transform;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  height: auto;
+  will-change: transform;
+}
+
+.project-info {
+  flex: 1;
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.project-info-name {
+  display: flex;
+  align-items: flex-start;
+  font-size: 9rem;
+}
+
+.project-info-des {
+  font-family: "regular", sans-serif;
+}
+
+.project-view {
+  font-family: "regular", sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.view-dot {
+  background: var(--primary);
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}

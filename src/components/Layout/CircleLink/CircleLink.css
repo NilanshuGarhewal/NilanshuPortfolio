@@ -1,0 +1,48 @@
+.footer-social-links {
+  width: 10rem;
+  height: 10rem;
+  background-color: var(--bg-secondary);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-social-links a {
+  z-index: 60;
+  text-decoration: none;
+  color: var(--fg-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* filter: invert(1); */
+}
+
+.footer-social-links a img,
+.single {
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+  filter: brightness(15);
+  z-index: 52;
+}
+
+.footer-social-links:hover .single {
+  scale: 0.8;
+  transition: scale 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.footer-red-circle {
+  width: 10rem;
+  height: 10rem;
+  background-color: var(--primary);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 50;
+  top: 100%;
+}

@@ -1,0 +1,25 @@
+.hero-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 1rem 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  justify-content: end;
+}
+
+.hero-upper {
+  flex: 1;
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    background-color: red;
+  }
+
+  .hero-upper {
+    display: none;
+  }
+}

@@ -1,0 +1,84 @@
+.menu {
+  width: 7rem;
+  height: 5rem;
+  background-color: var(--bg-secondary);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.menu-icon {
+  position: absolute;
+  top: 2rem;
+  right: 2.7rem;
+  width: 1.5rem;
+  filter: invert(1);
+}
+
+.menu-card {
+  width: 40vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+.menu-svg {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.menu-svg img {
+  width: 10rem;
+  height: 10rem;
+  filter: invert(1) brightness(2);
+}
+
+.menu-svg p {
+  width: 7rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-tools {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+/* .menu {
+  width: 7rem;
+  height: 5rem;
+  background-color: var(--bg-secondary);
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+  position: relative;
+}
+
+.menu-tools {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  z-index: 101;
+} */

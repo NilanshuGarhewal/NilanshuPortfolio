@@ -1,0 +1,28 @@
+.text {
+  /* width: auto; */
+  overflow: hidden;
+  cursor: pointer;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+  perspective: 100px;
+}
+
+.para {
+  margin: 0;
+  padding: 0;
+}
+
+.first-text {
+  transform-origin: top;
+}
+
+.last-text {
+  color: var(--primary);
+  position: absolute;
+  transform: scaleY(0.2);
+  transform-origin: bottom;
+}
